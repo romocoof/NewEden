@@ -3,24 +3,25 @@
 
   <head>
     <title>Document Formulaire</title>
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/test.css" rel="stylesheet" media="screen">
-    <link href="css/typeahead.css" rel="stylesheet" media="screen">
+    <link href="css/typeahead.min.css" rel="stylesheet" media="screen">
   </head>
 
   <body>
-
+<h2 class="offset3"><a href="formulaire.html"> Formulaire <small>Inscription</small></a></h2>
   <div class="btn-group btn-group-vertical row span2 " id="menu">
-    <a class="btn btn-success" href="#">Accueil</a>
+    <a class="btn btn-success" href="index.html">Accueil</a>
     <a class="btn disabled" href="#">Formulaire</a>
     <a class="btn btn-success" href="#">Inscription</a>
     <a class="btn btn-success" href="#">Carousel</a>
   </div>
 
+<div class="row">
+    <div class="span8">
 
-<a href="index.html">ici2</a>
 
-<form class="form-horizontal" method="get">
+      <form class="form-horizontal" method="get">
 
           <div class="control-group">
             <label class="control-label" for="inputPrenom">Prenom : </label>
@@ -60,10 +61,10 @@
 
           <div class="control-group row offset2"><input class="btn btn-success span3" name="ajouter" type="submit" value="Ajouter"><input class="btn" name="generer" type="submit" value="Generate"></div>
         </form>
-
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+  </div>
+</div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/underscore-min.js"></script>
-    <script src="js/java.js"></script>
   </body>
 </html>
